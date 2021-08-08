@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7688737927,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.start()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify the Valid Username and InValid Password",
+        "description": "",
+        "id": "automate--key-process-on-menu;verify-the-valid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 10774972363,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 468902446,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "HomePageStepDef.i_am_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3608169916,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on key process icon",
+            "match": {
+              "location": "HomePageStepDef.i_click_on_key_process_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162508,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see the new page",
+            "match": {
+              "location": "KeyProcessStepDef.i_should_see_the_new_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@key"
+          }
+        ]
+      }
+    ],
+    "name": "Automate  key process on menu",
+    "description": "",
+    "id": "automate--key-process-on-menu",
+    "keyword": "Feature",
+    "uri": "KeyPresses.feature"
+  }
+]
